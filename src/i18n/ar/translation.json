@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "cart": "العربة",
+    "categories": "التصنيفات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل جديد"
+  },
+  "product_card": {
+    "title": "المنتج",
+    "price": "السعر",
+    "available_quantity": "الكمية",
+    "add_to_cart": "أضف إلى العربة",
+    "currency": "جنيه "
+  },
+  "categories": {
+    "men": "رجالي",
+    "women": "نسائي",
+    "baby": "طفل",
+    "kids": "أطفالي",
+    "sport": "رياضي"
+  },
+  "cart": {
+    "title": "العربة",
+    "checkout": "الدفع",
+    "remove": "حذف",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "total": "الإجمالي",
+    "product": "المنتج"
+  },
+  "form": {
+    "signUp": " تسجيل",
+    "signIn": " تسجيل الدخول",
+    "subTitle": "أهلا بك في متجرنا الإلكتروني",
+    "username": "اسم المستخدم",
+    "username_placeholder": "أدخل اسم المستخدم",
+    "password": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "email_placeholder": "أدخل البريد الإلكتروني",
+    "haveAcc": " لديك حساب؟",
+    "welcome": "أهلا بك في متجرنا الإلكتروني"
+  },
+  "profile": {
+    "your_info": "معلوماتك الشخصية",
+    "edit_profile": " تعديل الملف الشخصي",
+    "update": " تحديث",
+    "orders": " الطلبات",
+    "order": " الطلب"
+  }
+}

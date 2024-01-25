@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "cart": "Cart",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "product_card": {
+    "title": "Title",
+    "price": "Price",
+    "available_quantity": "Available Quantity",
+    "add_to_cart": "Add to Cart",
+    "currency": "LE"
+  },
+  "categories": {
+    "men": "Men",
+    "women": "Women",
+    "kids": "Kids",
+    "baby": "Baby",
+    "sport": "Sport"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "checkout": "Checkout",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "remove": "Remove"
+  },
+  "form": {
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "subTitle": "Nice to meet you! Enter your details to register",
+    "username": "Username",
+    "username_placeholder": "Enter your username",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "haveAcc": "Already have an account?",
+    "welcome": "Welcome back! Please login to your account"
+  },
+  "profile": {
+    "your_info": "Your Info",
+    "edit_profile": "Edit Profile",
+    "update": "Update",
+    "orders": "Orders",
+    "order": "Order"
+  }
+}
