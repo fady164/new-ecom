@@ -132,8 +132,8 @@ export function NavbarDefault() {
                   />
                 </MenuHandler>
                 <MenuList>
-                  {profileList.map(({ url, title }) => (
-                    <MenuItem className="flex items-center gap-2">
+                  {profileList.map(({ url, title }, index) => (
+                    <MenuItem key={index} className="flex items-center gap-2">
                       <Typography variant="paragraph" className="font-medium">
                         <Link to={url} className="">
                           {title}

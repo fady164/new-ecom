@@ -33,6 +33,7 @@ const cartSlice = createSlice({
     },
     [getCartItems.fulfilled.type]: (state, action) => {
       state.loading = false;
+      state.error = null;
       state.items = action.payload;
     },
     [getCartItems.rejected.type]: (state, action) => {
@@ -44,6 +45,7 @@ const cartSlice = createSlice({
     },
     [newOrder.fulfilled.type]: (state) => {
       state.loading = false;
+      state.error = null;
       state.cartItemData = {};
       state.items = [];
     },

@@ -1,16 +1,16 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import EditProfile from "../components/UserProfile/EditProfile";
-import UserInfo from "../components/UserProfile/UserInfo";
-import UserOrders from "../components/UserProfile/UserOrders";
+import { EditProfile, UserInfo, UserOrders } from "../components/UserProfile";
 import WithGuard from "../components/utils/WithGuard";
-import Cart from "../pages/Cart";
-import Categories from "../pages/Categories";
-import Home from "../pages/Home";
-import Layout from "../pages/Layout";
-import Login from "../pages/Login";
-import Products from "../pages/Products";
-import Profile from "../pages/Profile";
-import Register from "../pages/Register";
+import {
+  Cart,
+  Categories,
+  Home,
+  Layout,
+  Login,
+  Products,
+  Profile,
+  Register,
+} from "../pages";
 
 const AppRoute = () => {
   const router = createBrowserRouter([
@@ -49,7 +49,7 @@ const AppRoute = () => {
               <Profile />
             </WithGuard>
           ),
-          // element: <Profile />,
+
           children: [
             {
               index: true,

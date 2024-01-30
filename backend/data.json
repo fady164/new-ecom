@@ -390,6 +390,34 @@
       ],
       "userId": 3,
       "id": 3
+    },
+    {
+      "orders": [
+        {
+          "product": {
+            "id": 24,
+            "title": "Cotton t-shirt",
+            "price": "100.00",
+            "cat_prefix": "women",
+            "img": "https://eg.hm.com/assets/styles/HNM/13650519/6cc34f51caee1d6cfe776b933d667075fa30d90d/2/image-thumb__2888777__product_listing/16c27492b022ac2eef03853f85d5b279a29ebeed.jpg",
+            "max_quantity": 3
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 32,
+            "title": "Velour top",
+            "price": "300.00",
+            "cat_prefix": "kids",
+            "img": "https://eg.hm.com/assets/styles/HNM/14478215/543d925539f4a3b92a79df2dfe46d5d481e1c7ae/2/image-thumb__3463278__product_listing/c1417d02c7a93e6d2aca7965003b4f7d490f0ae8.jpg",
+            "max_quantity": 3
+          },
+          "quantity": 1
+        }
+      ],
+      "userId": 3,
+      "id": 4
     }
   ]
 }

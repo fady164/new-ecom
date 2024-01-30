@@ -50,5 +50,9 @@
     "update": "Update",
     "orders": "Orders",
     "order": "Order"
+  },
+  "modal": {
+    "title": "You must login first!",
+    "cancel": "Cancel"
   }
 }

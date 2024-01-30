@@ -2,9 +2,17 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import styles from "./category.module.css";
 
+const titles = {
+  men: "men",
+  women: "women",
+  kids: "kids",
+  baby: "baby",
+  sport: "sport",
+} as const;
+
 export type CategoryCardType = {
   id: number;
-  title: string;
+  title: (typeof titles)[keyof typeof titles];
   prefix: string;
   img: string;
 };
@@ -19,7 +27,6 @@ const CategoryCard = ({ title, img, prefix }: CategoryCardType) => {
         <div className={categoryImg}>
           <img src={img} />
         </div>
-        {/* <h4 className={categoryTitle}>{title}</h4> */}
         <h4 className={categoryTitle}>{t(`categories.${title}`)}</h4>
       </div>
     </Link>

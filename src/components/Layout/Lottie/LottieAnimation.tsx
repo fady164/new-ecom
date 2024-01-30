@@ -15,7 +15,11 @@ const LottieAnimation = ({ type }: Props) => {
 
   return (
     <div className="flex justify-center">
-      <Lottie className="w-1/4" animationData={lottieJson} loop={true} />
+      <Lottie
+        className="w-3/4 lg:w-2/5 "
+        animationData={lottieJson}
+        loop={true}
+      />
     </div>
   );
 };

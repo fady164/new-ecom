@@ -1,7 +1,6 @@
 import { useFormik } from "formik";
 import { Button, Container, Form } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router";
-import * as Yup from "yup";
 import { useAppDispatch } from "../../../store/hooks";
 import { register } from "../../../store/user/authSlice";
 
