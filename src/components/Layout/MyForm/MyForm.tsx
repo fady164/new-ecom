@@ -30,20 +30,17 @@ const MyForm = () => {
   return (
     <Container>
       <Form onSubmit={formik.handleSubmit}>
-        {
-          // If the pathname is '/register', then show the username field
-          pathname === "/register" && (
-            <Form.Group className="mb-3" controlId="formBasicUsername">
-              <Form.Label>Username</Form.Label>
-              <Form.Control
-                onChange={formik.handleChange("username")}
-                value={formik.values.username}
-                type="text"
-                placeholder="Enter username"
-              />
-            </Form.Group>
-          )
-        }
+        {pathname === "/register" && (
+          <Form.Group className="mb-3" controlId="formBasicUsername">
+            <Form.Label>Username</Form.Label>
+            <Form.Control
+              onChange={formik.handleChange("username")}
+              value={formik.values.username}
+              type="text"
+              placeholder="Enter username"
+            />
+          </Form.Group>
+        )}
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control

@@ -6,9 +6,7 @@ const Layout = () => {
   return (
     <div>
       <NavbarDefault />
-      {/* <Card>
-        <App />
-      </Card> */}
+
       <div className="py-2 ">
         <Outlet />
       </div>
