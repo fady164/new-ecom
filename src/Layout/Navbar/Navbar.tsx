@@ -196,7 +196,20 @@ export function NavbarDefault() {
         <div className="container mx-auto">
           {navList}
           <hr className="my-2 border-blue-gray-50" />
-          <div className="flex items-center gap-5">{LogBtns}</div>
+          {!success ? (
+            <div className="flex items-center gap-5">{LogBtns}</div>
+          ) : (
+            <Typography
+              variant="h5"
+              onClick={() => {
+                dispatch(logout());
+                navigate("/");
+              }}
+              className="font-medium text-gray-700 "
+            >
+              {t("nav.logout")}
+            </Typography>
+          )}
         </div>
       </Collapse>
     </Navbar>
